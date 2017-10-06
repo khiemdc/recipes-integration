@@ -1,0 +1,36 @@
+{
+  "name": "recipes-integration",
+  "version": "0.0.1",
+  "description": "recipes-integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha ./test"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.12.4",
+    "morgan": "^1.7.0",
+    "uuid": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khiemdc/recipes-integration.git"
+  },
+  "keywords": [
+    "node",
+    "hyperdev",
+    "express"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khiemdc/recipes-integration/issues"
+  },
+  "homepage": "https://github.com/khiemdc/recipes-integration#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.1.2"
+  },
+  "author": ""
+}
